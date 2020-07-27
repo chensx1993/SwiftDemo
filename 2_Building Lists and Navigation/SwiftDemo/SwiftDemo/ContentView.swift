@@ -8,6 +8,9 @@
 
 import SwiftUI
 
+// 2. Building Lists and Navigation
+// https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation
+
 struct ContentView: View {
     var body: some View {
         VStack {
