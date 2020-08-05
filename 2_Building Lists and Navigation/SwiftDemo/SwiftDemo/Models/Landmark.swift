@@ -1,15 +1,14 @@
-//
-//  Landmark.swift
-//  SwiftDemo
-//
-//  Created by HSBC Mia on 2020/7/27.
-//  Copyright © 2020 chensx. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+The model for an individual landmark.
+*/
 
 import SwiftUI
 import CoreLocation
 
-struct Landmark: Hashable, Codable {
+struct Landmark: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
     fileprivate var imageName: String
@@ -17,7 +16,7 @@ struct Landmark: Hashable, Codable {
     var state: String
     var park: String
     var category: Category
-    
+
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(
             latitude: coordinates.latitude,
@@ -31,8 +30,13 @@ struct Landmark: Hashable, Codable {
     }
 }
 
+extension Landmark {
+    var image: Image {
+        ImageStore.shared.image(name: imageName)
+    }
+}
+
 struct Coordinates: Hashable, Codable {
     var latitude: Double
     var longitude: Double
 }
-

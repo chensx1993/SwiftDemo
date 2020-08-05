@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1E4FD18224CEC1F400BBC0EE /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FD18124CEC1F400BBC0EE /* CircleImage.swift */; };
 		1E4FD18524CEC44100BBC0EE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FD18424CEC44100BBC0EE /* MapView.swift */; };
+		CD6A0C0424DACD6500783FCC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CD6A0C0324DACD6400783FCC /* README.md */; };
 		F08A94C82498A72500A0B6AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08A94C72498A72500A0B6AB /* AppDelegate.swift */; };
 		F08A94CA2498A72500A0B6AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08A94C92498A72500A0B6AB /* SceneDelegate.swift */; };
 		F08A94CC2498A72500A0B6AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08A94CB2498A72500A0B6AB /* ContentView.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		1E4FD18124CEC1F400BBC0EE /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		1E4FD18424CEC44100BBC0EE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CD6A0C0324DACD6400783FCC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F08A94C42498A72500A0B6AB /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F08A94C72498A72500A0B6AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F08A94C92498A72500A0B6AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		F08A94BB2498A72500A0B6AB = {
 			isa = PBXGroup;
 			children = (
+				CD6A0C0324DACD6400783FCC /* README.md */,
 				F08A94C62498A72500A0B6AB /* SwiftDemo */,
 				F08A94DD2498A72700A0B6AB /* SwiftDemoTests */,
 				F08A94C52498A72500A0B6AB /* Products */,
@@ -204,6 +207,7 @@
 			files = (
 				F08A94D42498A72700A0B6AB /* LaunchScreen.storyboard in Resources */,
 				F08A94D12498A72700A0B6AB /* Preview Assets.xcassets in Resources */,
+				CD6A0C0424DACD6500783FCC /* README.md in Resources */,
 				F08A94CE2498A72700A0B6AB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
